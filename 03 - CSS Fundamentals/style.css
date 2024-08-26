@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
     font-family: sans-serif;
     color: #444;
@@ -49,6 +50,7 @@ aside {
     width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1, h2, h3 {
     color: #1098ad;
 }
@@ -95,6 +97,8 @@ li {
     font-size: 20px;
     margin-bottom: 10px;
     /*font-family: sans-serif;*/
+
+    /*display: inline;*/
 }
 
 li:last-child {
@@ -163,7 +167,26 @@ article p:first-child {
 .post-image {
     width: 100%;
     height: auto;
+    /*margin: 100px;*/
 }
+
+nav a:link {
+    /*background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+
+    display: block;*/
+
+    margin-right: 30px;
+    margin-top: 10px;
+
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
+}
+
 
 a:link {
     color: #1098ad;
