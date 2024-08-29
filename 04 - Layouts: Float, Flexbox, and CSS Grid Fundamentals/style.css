@@ -25,9 +25,10 @@ body {
 
 .main-header {
     background-color: #f7f7f7;
+    background-color: red;
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    /*height: 80px;*/
 }
 
 nav {
@@ -294,4 +295,14 @@ h1 {
 
 nav {
     float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
 }
