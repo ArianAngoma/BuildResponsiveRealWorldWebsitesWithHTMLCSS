@@ -39,6 +39,7 @@ Primary: #e67e22
 
 --- 06 BORDER-RADIUS SYSTEM ---
 Default: 9px
+11px
 
 --- 07 WHITESPACE SYSTEM ---
 - SPACING SYSTEM (px)
@@ -176,4 +177,8 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+strong {
+    font-weight: 500;
 }
