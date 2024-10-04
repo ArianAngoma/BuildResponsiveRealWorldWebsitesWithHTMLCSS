@@ -26,6 +26,7 @@ Primary: #e67e22
 - Tints:
 #fdf2e9
 #fae5d3
+#eb984e
 
 - Shades: #cf711f
 
@@ -37,6 +38,7 @@ Primary: #e67e22
 #333
 
 --- 05 SHADOW SYSTEM ---
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER-RADIUS SYSTEM ---
 Default: 9px
