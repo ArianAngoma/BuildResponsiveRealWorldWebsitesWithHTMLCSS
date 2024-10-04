@@ -35,6 +35,8 @@ Primary: #e67e22
 - Accents:
 
 - Grays:
+#888
+#767676 (lightest grey allowed on #fff)
 #6f6f6f (lightest grey allowed on #fdf2e9)
 #555
 #333
@@ -252,7 +254,7 @@ body {
     color: #e67e22;
 }
 
-*:focus {
+*:focus-visible {
     outline: none;
     /*outline: 4px dotted #e67e22;*/
     /*outline-offset: 8px;*/
