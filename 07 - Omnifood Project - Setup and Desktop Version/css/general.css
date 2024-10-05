@@ -240,6 +240,7 @@ body {
     flex-direction: column;
     gap: 1.6rem;
 }
+
 .list-item {
     font-size: 1.8rem;
 
